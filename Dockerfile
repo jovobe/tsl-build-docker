@@ -5,6 +5,5 @@ RUN mkdir /build
 
 COPY build_container.sh /
 COPY build_and_install_deps.sh /
-COPY conanfile.txt /
 
 RUN ./build_container.sh
